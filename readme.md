@@ -56,9 +56,6 @@ This is where we setup what a user sees when they click 'Signin with google'. We
 ### 4. Create Credentials
 We are going to make use of these credentials in our django project so:
  Still under OAuth Consent Screen menu on the left,select the Clients tab do the following:
-
-    ```Create OAuth Consent Screen > OAuth client Id > Clients```
-
 - Appication type should be web application
 
 - Give it a name
