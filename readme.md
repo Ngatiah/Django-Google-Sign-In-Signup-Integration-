@@ -39,10 +39,10 @@ This is where we setup what a user sees when they click 'Signin with google'. We
     - click save and continue
 
 - Next we need to add scopes for the information we want to get access to from the google account:
-    - Click Add or remove scopes
-    - Select the first 2 options (These will give us access to information lile a user's email, name, profile photo, ....)
-    - Click update
-    - Click save and continue
+- Under OAuth Consent Screen menu on the left,select Data Access tab "Click Add or remove scopes" and do the following:
+        - Select the first 2 options (These will give us access to information lile a user's email, name, profile photo, ....)
+        - Click update
+        - Click save and continue
 
 - Adding test users:
     - We can skip this step because we will successfully be able to login without adding an email as a test user 
@@ -54,12 +54,10 @@ This is where we setup what a user sees when they click 'Signin with google'. We
     - Back to dashboard
 
 ### 4. Create Credentials
-We are going to make use of these credentials in our django project 
+We are going to make use of these credentials in our django project so:
+ Still under OAuth Consent Screen menu on the left,select the Clients tab do the following:
 
-- Click credentials in the side nav
-
-- Click:
-    ```Create credentials > OAuth client Id```
+    ```Create OAuth Consent Screen > OAuth client Id > Clients```
 
 - Appication type should be web application
 
@@ -67,10 +65,12 @@ We are going to make use of these credentials in our django project
 
 - Next, we ned to fill authorised redirect url:
     - Add the following URIs:
+      
         ```http://127.0.0.1:8000```
         ```http://127.0.0.1:8000/accounts/google/login/callback/```
 
-        make sure you add exactly those urls
+        make sure you add exactly those urls while also taking into consideration whatever port you have set running for your project
+        
 
     - Click create
     - Download created credentials
