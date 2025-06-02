@@ -39,8 +39,9 @@ This is where we setup what a user sees when they click 'Signin with google'. We
     - click save and continue
 
 - Next we need to add scopes for the information we want to get access to from the google account:
-- Under OAuth Consent Screen menu on the left,select Data Access tab "Click Add or remove scopes" and do the following:
-        - Select the first 2 options (These will give us access to information lile a user's email, name, profile photo, ....)
+- Under OAuth Consent Screen menu , select Data Access tab "Click Add or remove scopes" and do the following:
+        - Select the first 2 options
+            (These will give us access to information lile a user's email, name, profile photo, ....)
         - Click update
         - Click save and continue
 
