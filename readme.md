@@ -1,6 +1,6 @@
 # Google Login & Signup with Django
 
-This tutorial will teach you all you need to know to get started with authenticating your users with google. This tutorial does assume you have your project setup already
+All you need to know to get started with authenticating your users with google,assuming you have your project setup already
 
 ## Getting Started
 
